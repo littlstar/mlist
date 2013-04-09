@@ -1,0 +1,13 @@
+{
+  "name": "mlist",
+  "repo": "jwerle/mlist",
+  "description": "Fast lisp like memory lists",
+  "version": "0.0.3",
+  "keywords": ["list", "lisp", "fast", "memory"],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
