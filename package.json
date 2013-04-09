@@ -1,6 +1,6 @@
 {
   "name": "mlist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fast lisp like lists",
   "main": "index.js",
   "scripts": {
