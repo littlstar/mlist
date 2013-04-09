@@ -11,6 +11,7 @@ $ [sudo] npm install mlist
 var mlist = require('mlist')
   , set = mlist.set
 
+var cities = mlist()
 cities(set('nyc', 'New York City'));
 cities(set('tpa', 'Tampa'));
 cities(set('la', 'Los Angeles'));
