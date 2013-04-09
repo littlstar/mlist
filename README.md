@@ -1,6 +1,8 @@
 mlist
 =======
 
+[![Build Status](https://travis-ci.org/jwerle/mlist.png?branch=master)](https://travis-ci.org/jwerle/mlist)
+
 ## install
 ```sh
 $ [sudo] npm install mlist
