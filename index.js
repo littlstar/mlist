@@ -1,4 +1,4 @@
-var mlist = module.exports = function() {
+var mlist = module.exports = function(array) {
 	var _list = new List()
 	var proxy = function list(action) {
 		var ret = action.call(_list, _list)
@@ -9,6 +9,9 @@ var mlist = module.exports = function() {
 		get : function(){ return _list.length; },
 		enumerable	: false
 	});
+
+	if (Array.isArray(array))
+		_list = [].concat.call(_list, array);
 
 	return proxy;
 };
@@ -57,7 +60,7 @@ var set = module.exports.set = function(key, value) {
 
 var concat = module.exports.concat = function(value) {
 	var values = [].slice.call(arguments,0);
-	return function() { this.concat(values); }
+	return function() { return this.concat(values); }
 };
 
 var each = module.exports.each = function(callback) {
