@@ -1,0 +1,17 @@
+{
+  "name": "mlist",
+  "version": "0.0.1",
+  "description": "Fast lisp like lists",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "",
+  "keywords": [
+    "list",
+    "fast",
+    "lisp"
+  ],
+  "author": "Joseph Werle <joseph@werle.io>",
+  "license": "MIT"
+}
