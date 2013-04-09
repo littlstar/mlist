@@ -111,8 +111,25 @@ var values = module.exports.values = function(callback) {
 	}
 };
 
+var shift = module.exports.shift = function() {
+	var args = arguments
+	return function(){ return this.shift.apply(this, args); }
+};
 
+var pop = module.exports.pop = function() {
+	var args = arguments
+	return function(){ return this.pop.apply(this, args); }
+};
 
+var some = module.exports.pop = function() {
+	var args = arguments
+	return function(){ return this.pop.apply(this, args); }
+};
+
+var every = module.exports.every = function() {
+	var args = arguments
+	return function(){ return this.every.apply(this, args); }
+};
 
 // map to List prototype
 for (var func in module.exports) List.prototype[func] = module.exports[func];

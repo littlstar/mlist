@@ -1,6 +1,6 @@
 {
   "name": "mlist",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Fast lisp like lists",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
     "fast",
     "lisp"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jwerle/mlist.git"
+  },
   "author": "Joseph Werle <joseph@werle.io>",
   "license": "MIT"
 }
